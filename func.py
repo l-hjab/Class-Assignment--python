@@ -1,3 +1,4 @@
+#Code Challenge 1
 import random
 # def jokes():
 #     list=['Tall','Dark','Handsome','Rich','Smart']
@@ -26,21 +27,36 @@ joke=[
 print(random.choice(joke))
 
 #game3 Quiz game
-def game():
-    Name=input('Your Nickname:')
-    print('Hey',Name,'Welcome to our Quiz Game')
-    Question1=input('1. Is python a markup language?')
-    if(Question1=='No'):
-        print('Brilliant mind Tech guru')
-    else:
-        print('Wrong answer,Python is a programming language')
-    datatype=['integer','string','float','boolean','list']
-    print(datatype)
-    Question2=input('2. Which of the above is not a data type')
+# def game():
+    # score=0
+    # Name=input('Your Nickname:')
+    # print('Hey',Name,'Welcome to our Quiz Game')
+    # Question1=input('1. Is python a markup language?')
+    # if(Question1=='no'):
+    #     print('Brilliant mind Tech guru')
+    #     score +=1
+    # else:
+    #     print('Wrong answer,Python is a programming language')
+    #     #question2
+    # datatype=['integer','string','float','boolean','list']
+    # print(datatype)
+    # Question2=input('2. Which of the above is not a data type:')
     
-    if(Question2=='list'):
-        print('Brilliant mind')
-    else:
-        print('No,list is not datatype')
-    
-game()
+    # if(Question2=='list'):
+    #     print('Brilliant mind')
+    #     score +=1
+       
+    # else:
+    #     print('No,list is not datatype')
+    # Question3=input('python is very simple language and enjoyable,right?')
+    # if(Question3 == 'yes'):
+    #     print('Good answer,all you gotta do is to have a positive mindset')
+    #     score +=1
+    #     print('Your scored:',score)
+    # else:
+    #     print('Wrong,just learn to understand the basics')
+    #     print('You scored:',score)
+# game()
+def greet(name):
+    print( f'Hello {name},hope you are doing fine')
+greet('jane')
